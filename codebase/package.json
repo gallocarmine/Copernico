@@ -1,0 +1,28 @@
+{
+  "name": "ecoffice",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev:next": "",
+    "clear": "rimraf ./**/**/node_modules/ && rm -rf ./node_modules/",
+    "dev": "dotenv -e ./apps/mobile/.env -- turbo dev --parallel",
+    "db-push": "cd ./packages/db && pnpm run db-push"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "dotenv": "^16.4.5",
+    "dotenv-cli": "^7.4.2",
+    "eslint": "^8.57.1",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "rimraf": "^5.0.10",
+    "turbo": "^1.13.4"
+  }
+}
