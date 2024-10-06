@@ -98,7 +98,7 @@ The **registration process** consists of a **gradual onboarding** that requires 
 
 - **Language selection** and automatic setting of the corresponding unit of measurement
 - **Mandatory Data**: First Name, Last Name, Email, Password, Phone Number
-- **Optional Data**: Farm Name
+- **Optional Data**: Company Name
 
 Next, users proceed with an easy identification of their **area of interest** through a geolocation and search system, allowing them to accurately and precisely trace the perimeter. 
 
@@ -244,5 +244,9 @@ Here are some examples that illustrate how the datasets from NASA can be used to
 
 - [NASA Power API](https://power.larc.nasa.gov/)
 - [NASA Earthdata Search Portal](https://search.earthdata.nasa.gov)
+
+<br>
+
+**_Credits_**: _This system was conceived and designed by: Carmine Gallo, Orazio Torre, Vittorio D'Alfonso, Gerardo Nastri_.
 
 <br>
