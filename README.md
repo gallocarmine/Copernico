@@ -38,8 +38,24 @@ Through more *accurate* forecasts, tools for **risk management**, and **decision
 
 ## _Tech Stack_
 
-   - **Frontend**: _Expo_, _React Native_, _Nativewind_.
+   - **Frontend**: _Next.js_, _Expo_, _Supabase_, and _tRPC_
    - **UI/UX**: _Figma_.
+
+### Features
+
+- Next.js web frontend
+- Expo/React Native mobile app
+- Supabase authentication
+- Typesafe API with tRPC
+- State management with React Query
+- Styling with Tailwind CSS
+- Customizable UI components
+- TypeScript configuration
+
+### Project Structure
+
+- `apps/next.js`: Next.js web application
+- `apps/mobile`: Expo/React Native mobile application
    
 <br>
 
@@ -53,21 +69,11 @@ Make sure you have **_Node.js_** and **_npm_** installed on your computer.
 
 Follow these steps to execute the project:
 
-1. Clone the repository:
-
-```git clone <repository-url>```
-
-2. Move to the project directory you have just cloned:
-
-```cd <directory-name>```
-
-3. Install all necessary dependencies with the following command:
-
-```npm install```
-
-4. Start the application with Expo
-
-```npx expo start```
+1. Clone the repository
+2. Install dependencies: `pnpm install`
+3. Set up environment variables
+4. Start web app: `pnpm run dev:web`
+5. Start mobile app: `pnpm run dev:mobile`
 
 <br>
 
