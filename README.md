@@ -7,9 +7,7 @@
 ## _Introduction_
 
 
-Agriculture, a fundamental pillar for the survival and development of human communities, today faces increasingly complex challenges on a global scale. 
-Phenomena such as **climate change**, with *unpredictable* weather patterns, **pest** infestations, **livestock** diseases, and even *political* tensions,  
-put **food security** and the livelihoods of **farmers** at risk. Additionally, there is growing difficulty in accessing *essential resources*, exacerbated by the lack of *adequate tools* to manage these challenges effectively. In this scenario, the integration of **advanced scientific data** could represent a crucial turning point to make agricultural practices more *resilient* and **sustainable**. It is in this context that **Copernico** was born, an innovative app designed to offer farmers a **simple and intuitive tool** that connects them to **geospatial data** and  **Earth observation data** provided by **NASA**. 
+Agriculture, a fundamental pillar for the survival and development of human communities, today faces increasingly complex challenges on a global scale. Phenomena such as **climate change**, with *unpredictable* weather patterns, **pest** infestations, **livestock** diseases, and even *political* tensions,put **food security** and the livelihoods of **farmers** at risk. Additionally, there is growing difficulty in accessing *essential resources*, exacerbated by the lack of *adequate tools* to manage these challenges effectively. In this scenario, the integration of **advanced scientific data** could represent a crucial turning point to make agricultural practices more *resilient* and **sustainable**. It is in this context that **Copernico** was born, an innovative app designed to offer farmers a **simple and intuitive tool** that connects them to **geospatial data** and  **Earth observation data** provided by **NASA**. 
 
 Through more *accurate* forecasts, tools for **risk management**, and **decision support**, the app aims to offer concrete and easily accessible solutions to farmers.Despite the opportunities provided by **satellite data**, translating complex information into **practical advice** usable by agricultural communities remains a challenge. Often, current technologies fail to adequately integrate the data into a **"farmer-centric"** context, limiting the adoption of such resources due to their complexity or the lack of an *adequate design*. **Copernico** aims to overcome these barriers by providing a tool that allows the visualization of *data* in a comprehensible, **intuitive**, and **relevant** way, thereby helping farmers make **informed decisions** based on **real-time** information.
 
@@ -48,8 +46,10 @@ Through more *accurate* forecasts, tools for **risk management**, and **decision
 
 **Requirements**
 
-Make sure you have _Node.js_ and _npm_ installed on your computer.
+Make sure you have **_Node.js_** and **_npm_** installed on your computer.
 
+
+Follow these steps to execute the project:
 
 1. Clone the repository:
 
@@ -118,6 +118,8 @@ Each piece of data is accompanied by **_practical advice_** that can be implemen
 - **_Livestock Statistics_**: through the cataloging of each farmed animal and using a predictive model, users can receive a series of personalized actions aimed at increasing the **well-being of the animals**.
 
 <br>
+
+**Proximity Chat**
 
 The **Proximity Chat** feature enables users to engage with a _location-based social feed_. It encourages **community interactions** by showing posts and media shared by individuals within a _defined distance_ from the user’s location. The **proximity range is configurable** (e.g., within a _100 km radius_), fostering **local connectivity** and _real-time updates_ about the surrounding community.
 
@@ -226,13 +228,6 @@ Here are some examples that illustrate how the datasets from NASA can be used to
 - **Plant Water Stress**
    - **Required Data**: Soil moisture, air temperature, evapotranspiration.
    - **Derived Condition**: By monitoring soil moisture and calculating evapotranspiration, the _water stress levels of plants_ can be derived, supporting decisions on whether irrigation is necessary.
-
-
-For more information and access to data, the following resources are useful:
-
-- [NASA Power API](https://power.larc.nasa.gov/)
-- [NASA Earthdata Search Portal](https://search.earthdata.nasa.gov)
-
 
 <br>
 
