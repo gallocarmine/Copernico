@@ -43,6 +43,14 @@ Through more *accurate* forecasts, tools for **risk management**, and **decision
 <br>
 
 
+## _How to Run_
+
+
+
+
+<br>
+
+
 ## _System Architecture and Features_
 
 **Registration - Login**
@@ -120,8 +128,85 @@ Every time a user completes a task, they earn **experience points (XP)**, which 
 ## _Data Source and Processing_
 
 
+The **NASA POWER API** provides meteorological data useful for various applications, including _climate analysis_, _agricultural studies_, and _environmental monitoring_. This documentation describes how to correctly construct URLs to access the data offered by the API and presents the main datasets available through **NASA Earthdata**.
+
+The _base URL_ for **accessing daily data** from the API is: https://power.larc.nasa.gov/api/temporal/daily/point
+
+To construct a complete URL for data access, several parameters need to be specified. Below are the main parameters that can be used:
+
+- **lat**: Latitude of the geographic point of interest.
+- **lon**: Longitude of the geographic point of interest.
+- **start**: Start date for data retrieval (format _YYYY-MM-DD_).
+- **end**: End date for data retrieval (format _YYYY-MM-DD_).
+- **params**: Specific parameters requested (e.g., _temperature_, _precipitation_, _soil moisture_).
+- **format**: Format of the response (e.g., _JSON_, _XML_).
 
 
+The **NASA POWER API** offers immediate benefits in terms of **speed** and **ease of use**. It is ideal for quick access to daily meteorological data for various applications. However, **NASA Earthdata** offers a more strategic option for the future, particularly for advanced research requiring complex, multidimensional datasets.
+
+
+NASA Earthdata provides access to key datasets that are invaluable for advanced research and applications. Some of the main datasets include:
+
+- **Air Temperature (T2M)**: Near-surface air temperature in degrees Celsius, useful for understanding daily temperature variations and trends for agricultural applications.
+- **Precipitation (PRECTOT)**: Total daily precipitation in millimeters, essential for irrigation planning, drought monitoring, and water resource management.
+- **Soil Moisture (SOILM)**: Available as a percentage, providing crucial data for understanding soil water content, which is vital for crop health and irrigation management.
+- **Soil Temperature (SOILTEMP)**: Soil temperature at different depths (typically 0-10 cm), important for understanding planting conditions and crop root zone temperatures.
+- **Wind Speed (WS2M)**: Wind speed at 2 meters above ground in meters per second, useful for planning wind-sensitive agricultural activities or renewable energy applications.
+- **Relative Humidity (RH2M)**: Humidity at 2 meters above ground level, valuable for understanding atmospheric moisture levels and their impact on crop health and disease.
+- **Solar Radiation (ALLSKY_SFC_SW_DWN)**: Downward shortwave radiation (MJ/m²/day), crucial for solar energy applications and plant photosynthesis analysis.
+- **Dew/Frost Point (DEW2M)**: Dew point temperature, which is essential for understanding frost risk and its impact on crops.
+
+These datasets provide **_real-time information_** that enhances our understanding of various environmental factors, supporting deeper analysis and applications. 
+
+
+Here are some examples that illustrate how the datasets from NASA can be used to derive important conditions and provide **_practical advice_** for farmers, resource managers, and environmental planners:
+
+
+### 1. **Potential Evapotranspiration (ETP)**
+   - **Required Data**: Air temperature, solar radiation, wind speed, relative humidity.
+   - **Derived Condition**: _Potential evapotranspiration_ measures water loss through evaporation and plant transpiration. This is critical for irrigation planning and water resource management.
+
+### 2. **Drought Index**
+   - **Required Data**: Precipitation, soil moisture, air temperature.
+   - **Derived Condition**: By combining precipitation and soil moisture data, a _drought index_ can be derived, helping to monitor periods of water stress for crops and managing agricultural risks.
+
+### 3. **Frost Prediction**
+   - **Required Data**: Air temperature, dew point temperature, relative humidity.
+   - **Derived Condition**: Monitoring minimum air temperatures and the dew point allows for _frost prediction_, which can help in taking preventive measures to protect crops from frost damage.
+
+### 4. **Crop Growth Conditions**
+   - **Required Data**: Soil temperature, air temperature, solar radiation.
+   - **Derived Condition**: _Crop growth conditions_ can be estimated by analyzing soil temperature and solar radiation, providing insights into the optimal times for planting and harvesting.
+
+### 5. **Plant Disease Risk Assessment**
+   - **Required Data**: Relative humidity, air temperature, precipitation.
+   - **Derived Condition**: High humidity combined with specific temperature ranges can promote the development of fungi or other plant diseases. Monitoring these factors allows for proactive measures in _plant disease prevention_.
+
+### 6. **Soil Water Balance**
+   - **Required Data**: Soil moisture, precipitation, evapotranspiration.
+   - **Derived Condition**: With soil moisture, precipitation, and evapotranspiration data, the _soil water balance_ can be calculated, aiding in irrigation strategy and water resource management.
+
+### 7. **Solar Energy Forecast**
+   - **Required Data**: Solar radiation (ALLSKY_SFC_SW_DWN).
+   - **Derived Condition**: Solar radiation data can be used to estimate _solar energy production_, optimizing the operation of photovoltaic systems and planning renewable energy usage.
+
+### 8. **Livestock Climate Comfort Index**
+   - **Required Data**: Air temperature, relative humidity, wind speed.
+   - **Derived Condition**: Using these data, a _livestock comfort index_ can be derived, helping to assess the risk of heat stress in animals, improving welfare and management in farming.
+
+### 9. **Flood Prediction**
+   - **Required Data**: Total precipitation, soil moisture, wind speed.
+   - **Derived Condition**: Combining precipitation and soil moisture data allows for _flood predictions_, helping to make timely decisions for hydrological risk management.
+
+### 10. **Plant Water Stress**
+   - **Required Data**: Soil moisture, air temperature, evapotranspiration.
+   - **Derived Condition**: By monitoring soil moisture and calculating evapotranspiration, the _water stress levels of plants_ can be derived, supporting decisions on whether irrigation is necessary.
+
+
+For more information and access to data, the following resources are useful:
+
+- [NASA Power API](https://power.larc.nasa.gov/)
+- [NASA Earthdata Search Portal](https://search.earthdata.nasa.gov)
 
 
 <br>
