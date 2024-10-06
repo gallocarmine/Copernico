@@ -9,14 +9,13 @@
 
 Agriculture, a fundamental pillar for the survival and development of human communities, today faces increasingly complex challenges on a global scale. 
 Phenomena such as **climate change**, with *unpredictable* weather patterns, **pest** infestations, **livestock** diseases, and even *political* tensions,  
-put **food security** and the livelihoods of **farmers** at risk. Additionally, there is growing difficulty in accessing *essential resources*,  
-exacerbated by the lack of *adequate tools* to manage these challenges effectively. In this scenario, the integration of **advanced scientific data** could represent a crucial turning point to make agricultural practices more *resilient* and **sustainable**. It is in this context that **Copernico** was born, an innovative app designed to offer farmers a **simple and intuitive tool** that connects them to **geospatial data** and  **Earth observation data** provided by **NASA**. 
+put **food security** and the livelihoods of **farmers** at risk. Additionally, there is growing difficulty in accessing *essential resources*, exacerbated by the lack of *adequate tools* to manage these challenges effectively. In this scenario, the integration of **advanced scientific data** could represent a crucial turning point to make agricultural practices more *resilient* and **sustainable**. It is in this context that **Copernico** was born, an innovative app designed to offer farmers a **simple and intuitive tool** that connects them to **geospatial data** and  **Earth observation data** provided by **NASA**. 
 
 Through more *accurate* forecasts, tools for **risk management**, and **decision support**, the app aims to offer concrete and easily accessible solutions to farmers.Despite the opportunities provided by **satellite data**, translating complex information into **practical advice** usable by agricultural communities remains a challenge. Often, current technologies fail to adequately integrate the data into a **"farmer-centric"** context, limiting the adoption of such resources due to their complexity or the lack of an *adequate design*. **Copernico** aims to overcome these barriers by providing a tool that allows the visualization of *data* in a comprehensible, **intuitive**, and **relevant** way, thereby helping farmers make **informed decisions** based on **real-time** information.
 
 <br>
 
-## _Copernicus Goals_
+## _Copernico Goals_
 
 1. **Impact**
 
@@ -39,14 +38,34 @@ Through more *accurate* forecasts, tools for **risk management**, and **decision
 
 ## _Tech Stack_
 
-
+   - **Frontend**: _Expo_, _React Native_, _Nativewind_.
+   - **UI/UX**: _Figma_.
+   
 <br>
 
 
 ## _How to Run_
 
+**Requirements**
+
+Make sure you have _Node.js_ and _npm_ installed on your computer.
 
 
+1. Clone the repository:
+
+```git clone <repository-url>```
+
+2. Move to the project directory you have just cloned:
+
+```cd <directory-name>```
+
+3. Install all necessary dependencies with the following command:
+
+```npm install```
+
+4. Start the application with Expo
+
+```npx expo start```
 
 <br>
 
@@ -125,6 +144,12 @@ Every time a user completes a task, they earn **experience points (XP)**, which 
 <br>
 
 
+**Feedback Collection**
+
+After the system provides a prediction, users have the opportunity to offer feedback on the **_accuracy of the forecast_**. This could be done through a simple **rating scale** (for example, from 1 to 5, where 1 indicates a **very inaccurate prediction** and 5 a **highly accurate** one). Additionally, users could provide _optional comments_ to give more context about what went wrong if needed.
+
+<br>
+
 ## _Data Source and Processing_
 
 
@@ -162,43 +187,43 @@ These datasets provide **_real-time information_** that enhances our understandi
 Here are some examples that illustrate how the datasets from NASA can be used to derive important conditions and provide **_practical advice_** for farmers, resource managers, and environmental planners:
 
 
-### 1. **Potential Evapotranspiration (ETP)**
+- **Potential Evapotranspiration (ETP)**
    - **Required Data**: Air temperature, solar radiation, wind speed, relative humidity.
    - **Derived Condition**: _Potential evapotranspiration_ measures water loss through evaporation and plant transpiration. This is critical for irrigation planning and water resource management.
 
-### 2. **Drought Index**
+- **Drought Index**
    - **Required Data**: Precipitation, soil moisture, air temperature.
    - **Derived Condition**: By combining precipitation and soil moisture data, a _drought index_ can be derived, helping to monitor periods of water stress for crops and managing agricultural risks.
 
-### 3. **Frost Prediction**
+- **Frost Prediction**
    - **Required Data**: Air temperature, dew point temperature, relative humidity.
    - **Derived Condition**: Monitoring minimum air temperatures and the dew point allows for _frost prediction_, which can help in taking preventive measures to protect crops from frost damage.
 
-### 4. **Crop Growth Conditions**
+- **Crop Growth Conditions**
    - **Required Data**: Soil temperature, air temperature, solar radiation.
    - **Derived Condition**: _Crop growth conditions_ can be estimated by analyzing soil temperature and solar radiation, providing insights into the optimal times for planting and harvesting.
 
-### 5. **Plant Disease Risk Assessment**
+- **Plant Disease Risk Assessment**
    - **Required Data**: Relative humidity, air temperature, precipitation.
    - **Derived Condition**: High humidity combined with specific temperature ranges can promote the development of fungi or other plant diseases. Monitoring these factors allows for proactive measures in _plant disease prevention_.
 
-### 6. **Soil Water Balance**
+- **Soil Water Balance**
    - **Required Data**: Soil moisture, precipitation, evapotranspiration.
    - **Derived Condition**: With soil moisture, precipitation, and evapotranspiration data, the _soil water balance_ can be calculated, aiding in irrigation strategy and water resource management.
 
-### 7. **Solar Energy Forecast**
+- **Solar Energy Forecast**
    - **Required Data**: Solar radiation (ALLSKY_SFC_SW_DWN).
    - **Derived Condition**: Solar radiation data can be used to estimate _solar energy production_, optimizing the operation of photovoltaic systems and planning renewable energy usage.
 
-### 8. **Livestock Climate Comfort Index**
+- **Livestock Climate Comfort Index**
    - **Required Data**: Air temperature, relative humidity, wind speed.
    - **Derived Condition**: Using these data, a _livestock comfort index_ can be derived, helping to assess the risk of heat stress in animals, improving welfare and management in farming.
 
-### 9. **Flood Prediction**
+- **Flood Prediction**
    - **Required Data**: Total precipitation, soil moisture, wind speed.
    - **Derived Condition**: Combining precipitation and soil moisture data allows for _flood predictions_, helping to make timely decisions for hydrological risk management.
 
-### 10. **Plant Water Stress**
+- **Plant Water Stress**
    - **Required Data**: Soil moisture, air temperature, evapotranspiration.
    - **Derived Condition**: By monitoring soil moisture and calculating evapotranspiration, the _water stress levels of plants_ can be derived, supporting decisions on whether irrigation is necessary.
 
@@ -212,14 +237,9 @@ For more information and access to data, the following resources are useful:
 <br>
 
 
-## _Demo Links_
-
-
-<br>
-
-
-
 ## _Resources and Credits_
 
+- [NASA Power API](https://power.larc.nasa.gov/)
+- [NASA Earthdata Search Portal](https://search.earthdata.nasa.gov)
 
 <br>
