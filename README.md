@@ -40,23 +40,87 @@ Through more *accurate* forecasts, tools for **risk management**, and **decision
 ## _Tech Stack_
 
 
-
 <br>
-
-
-## _How to Run_
-
-
-<br>
-
 
 
 ## _System Architecture and Features_
 
+**Registration - Login**
+
+Registration and login allow the user to access **advanced features**, including:
+
+- **Integration into the community** and access to the proximity chat
+- **Personalized and accurate statistics** with practical advice on individual cultivated products and farmed livestock
+- Monitoring of multiple specific areas of interest
+- **Real-time notification alerts** to better manage crops and/or livestock
+- **Task Manager** with Gamification
+- Saving of preferences
+- **Personalized feedback**
+    
+<br>
+
+The **registration process** consists of a **gradual onboarding** that requires quick and simple data:
+
+- **Language selection** and automatic setting of the corresponding unit of measurement
+- **Mandatory Data**: First Name, Last Name, Email, Password, Phone Number
+- **Optional Data**: Farm Name
+
+Next, users proceed with an easy identification of their **area of interest** through a geolocation and search system, allowing them to accurately and precisely trace the perimeter. 
 
 <br>
 
+**Home Page**
+
+The **Home Page** includes a brief summary of some features, such as:
+
+- **Advanced Reporting System** with Daily/Monthly/Semi-Annual views
+- **Reports of the most relevant advice and practices** to implement throughout the day
+
+Through a **bottom bar**, users can navigate to the pages dedicated to specific features.
+
+<br>
+
+**Statistics**
+
+The **statistics section** presents solutions and practical advice, including a limited amount of data, in such a way that the end user perceives a high degree of **intuitiveness** in utilizing and implementing actions taken based on informed decisions.
+
+Each piece of data is accompanied by **_practical advice_** that can be implemented in the user's selected area of interest. Additionally, two advanced features are accessible within the **statistics area**:
+
+- **_Agriculture Statistics_**: through the cataloging of each individual cultivated product and using a predictive model, users can receive advice on every cataloged product.
+
+- **_Livestock Statistics_**: through the cataloging of each farmed animal and using a predictive model, users can receive a series of personalized actions aimed at increasing the **well-being of the animals**.
+
+<br>
+
+The **Proximity Chat** feature enables users to engage with a _location-based social feed_. It encourages **community interactions** by showing posts and media shared by individuals within a _defined distance_ from the user’s location. The **proximity range is configurable** (e.g., within a _100 km radius_), fostering **local connectivity** and _real-time updates_ about the surrounding community.
+
+Users can interact with posts in various ways:
+
+- **Like Posts:** _Show appreciation or agreement_ by liking posts.
+- **Comment on Posts:** _Join conversations_ by leaving comments.
+- **Text Posts:** _Share simple updates_, such as “_Today I found a FOX in my area… stay focused!_”
+- **Media Posts:** _Upload images or videos_ relevant to the community (e.g., pictures of _local events, projects_).
+
+
+<br>
+
+
+**Task Manager with Gamification**
+
+
+The _Task Manager with Gamification_ is a tool designed to help farmers manage their daily and long-term tasks more effectively and in a more engaging way, 
+turning farm work into a motivating experience through game mechanics.
+
+Every time a user completes a task, they earn **experience points (XP)**, which allow them to level up, unlock new features and receive **badges** that highlight their progress. For example, completing a week's worth of activities without delay can earn you a ‘Perfect Week’ badge. In addition to badges, users can receive **virtual rewards**, such as access to exclusive tips or advanced platform features. In addition, the Task Manager is integrated with the platform's **farming community**, allowing users to share their results, demonstrating their expertise. 
+
+
+<br>
+
+
 ## _Data Source and Processing_
+
+
+
 
 
 
