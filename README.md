@@ -1,5 +1,7 @@
 # Copernico
 
+![Synapse](images/Copernico.png)
+
 
 ## _Challenge: Leveraging Earth Observation Data for Informed Agricultural Decision-Making_
 
